@@ -1,0 +1,8 @@
+# dns servers.
+name_servers:
+  - 192.168.2.1
+  - 8.8.8.8
+
+custom_structured_ip_tacacs_source_interfaces:
+  - name: management1
+    vrf: Tenant_A_WEB_Zone

@@ -1,0 +1,19 @@
+Node Type,Node,Node Interface,Peer Type,Peer Node,Peer Interface,Node Interface Enabled
+l2leaf,DC2-L2LEAF1A,Ethernet1,l3leaf,DC2-LEAF1A,Ethernet5,True
+l2leaf,DC2-L2LEAF1A,Ethernet2,l3leaf,DC2-LEAF1B,Ethernet5,True
+l3leaf,DC2-LEAF1A,Ethernet1,spine,DC2-SPINE1,Ethernet1,True
+l3leaf,DC2-LEAF1A,Ethernet2,spine,DC2-SPINE2a,Ethernet1,True
+l3leaf,DC2-LEAF1A,Ethernet3,mlag_peer,DC2-LEAF1B,Ethernet3,True
+l3leaf,DC2-LEAF1A,Ethernet4,mlag_peer,DC2-LEAF1B,Ethernet4,True
+l3leaf,DC2-LEAF1A,Ethernet5,l2leaf,DC2-L2LEAF1A,Ethernet1,True
+l3leaf,DC2-LEAF1B,Ethernet1,spine,DC2-SPINE1,Ethernet2,True
+l3leaf,DC2-LEAF1B,Ethernet2,spine,DC2-SPINE2a,Ethernet2,True
+l3leaf,DC2-LEAF1B,Ethernet3,mlag_peer,DC2-LEAF1A,Ethernet3,True
+l3leaf,DC2-LEAF1B,Ethernet4,mlag_peer,DC2-LEAF1A,Ethernet4,True
+l3leaf,DC2-LEAF1B,Ethernet5,l2leaf,DC2-L2LEAF1A,Ethernet2,True
+spine,DC2-SPINE1,Ethernet1,l3leaf,DC2-LEAF1A,Ethernet1,True
+spine,DC2-SPINE1,Ethernet2,l3leaf,DC2-LEAF1B,Ethernet1,True
+spine,DC2-SPINE2a,Ethernet1,l3leaf,DC2-LEAF1A,Ethernet2,True
+spine,DC2-SPINE2a,Ethernet2,l3leaf,DC2-LEAF1B,Ethernet2,True
+spine,DC2-SPINE3,Ethernet1,l3leaf,DC2-LEAF1A,Ethernet5,True
+spine,DC2-SPINE3,Ethernet2,l3leaf,DC2-LEAF1B,Ethernet5,True
